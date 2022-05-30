@@ -6,11 +6,12 @@ public class ArrayTest {
 
     public static void main(String args[]) {
         ArrayTest at = new ArrayTest();
-      //  double i = at.find(-10, new int[]{1, 4, 2, 5, 7, 9});
-          double i = at.find(0, new int[]{5,7});
+        double i = at.find(-10, new int[]{1, 4, 2, 5, 7, 9});
+          //double i = at.find(0, new int[]{5,7});
         System.out.println(i);
     }
 
+    //index 0: average, 1: minimum, 2:maximum
     //index 0: average, 1: minimum, 2:maximum
     public double find(int index, int[] intArray) {
         if (index < 0) {
